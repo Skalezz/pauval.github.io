@@ -1,0 +1,224 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /*background-color: rgba(128, 0, 128, 0.2);*/
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-image: url('../img/Fondo23.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px groove purple;
+}
+
+.navbar-toggler {
+    background-color: purple !important;
+}
+
+.logo-container img {
+    width: 50%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+header {
+    margin: 0px auto;
+    padding: 20px;
+    color: #white;
+    padding: 20px;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    background-image: url('../img/Fondo14.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #FFD700;
+}
+
+header .photo-container {
+    width: 250px;
+    height: 250px;
+}
+
+header .photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+.name-container {
+    text-align: center;
+}
+
+.name-container .name-line {
+    display: block;
+}
+
+header .name-container .first-name,
+header .name-container .last-name {
+    font-family: 'Tangerine', serif;
+    font-weight: 550;
+    font-size: 2.7em;
+    text-shadow: 4px 4px 4px #aaa;
+    color: white;
+}
+
+.section-summary {
+    flex-grow: 1;
+    max-width: 800px;
+    padding: 15px;
+}
+
+.section-summary p {
+    background-color: rgba(128, 0, 128, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+section {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px purple;
+    border-radius: 8px;
+
+}
+
+h2,h4 {
+    color: purple;
+}
+
+h1, h3, h5{
+    color: #333;
+}
+
+h5 {
+    font-style: italic;
+}
+
+.education-item h4 {
+    color: purple;
+    font-size: 1.2em;
+}
+
+.custom-divider {
+    border-top: 1.5px solid purple;
+    margin: 10px 0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.experience-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.date-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.info-column {
+    flex: 3;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.experience-item h4 {
+    margin: 0;
+}
+
+.experience-item p {
+    margin: 5px 0;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h4 {
+    margin: 0;
+}
+
+.education-item p {
+    margin: 5px 0;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    margin-right: 10px;
+    border: 2px solid purple;
+    box-shadow: 4px 4px 8px purple;
+}
+
+.portfolio-item:last-child {
+    margin-right: 0;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: purple;
+    padding: 15px;
+    text-align: center;
+    color: #333;
+    border-top: 2px solid #FFD700;
+}
