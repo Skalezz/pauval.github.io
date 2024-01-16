@@ -48,9 +48,9 @@ a {
 header {
     margin: 0px auto;
     padding: 20px;
-    color: #white;
+    color: white;
     padding: 20px;
-    height: 75vh;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -222,3 +222,4 @@ footer {
     color: #333;
     border-top: 2px solid #FFD700;
 }
+
